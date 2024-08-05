@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Information & Science Engineering</title>
+  <link rel="stylesheet" href="ise-3.css">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <div class="container">
+      <h1><img src="/images/jssstu-logo.jpg">JSS SCIENCE AND TECHNOLOGY UNIVERSITY</h1>
+      <h2>Information Science & Engineering </h2>
+      <h3>SEMESTER - &#8546;</h3>
+
+      <table>
+          <tr>
+            <th>Subject Code</th>
+            <th>Subject Name</th>
+            <th>Grade</th>
+          </tr>
+          
+        <tr>
+          <td class="sub-code">20MA312</td>
+          <td class="sub-name">Engineering Mathematics &#8546;</td>
+          <td><input type="text"   id="subject-1" oninput="let a=this.selectionStart;this.value=this.value.toUpperCase();this.setSelectionRange(a, a);"></td>
+          </tr>
+          <tr>
+              <td class="sub-code">20IS310</td>
+              <td class="sub-name">Computer Organization & Architecture</td>
+              <td><input type="text" id="subject-2" oninput="let b=this.selectionStart;this.value=this.value.toUpperCase();this.setSelectionRange(b, b);"></td>
+          </tr>
+          <tr>
+              <td class="sub-code">20IS320</td>
+              <td class="sub-name">Discrete Mathematical Structures</td>
+              <td><input type="text" id="subject-3" oninput="let c=this.selectionStart;this.value=this.value.toUpperCase();this.setSelectionRange(c, c);"></td>
+          </tr>
+          <tr>
+              <td class="sub-code">20IS330</td>
+              <td class="sub-name">Data Structures & Applications </td>
+              <td><input type="text" id="subject-4" oninput="let d=this.selectionStart;this.value=this.value.toUpperCase();this.setSelectionRange(d, d);"></td>
+          </tr>
+          <tr>
+              <td class="sub-code">20IS340</td>
+              <td class="sub-name">Object Oriented Programming Concepts</td>
+              <td><input type="text" id="subject-5" oninput="let e=this.selectionStart;this.value=this.value.toUpperCase();this.setSelectionRange(e, e);"></td>
+          </tr>
+          <tr>
+              <td class="sub-code">20IS350</td>
+              <td class="sub-name">Operating Systems</td>
+              <td><input type="text" id="subject-6" oninput="let f=this.selectionStart;this.value=this.value.toUpperCase();this.setSelectionRange(f, f);"></td>
+          </tr>
+          <tr>
+              <td class="sub-code">20IS36L</td>
+              <td class="sub-name">Data Structures Laboratory </td>
+              <td><input type="text" id="subject-7" oninput="let g=this.selectionStart;this.value=this.value.toUpperCase();this.setSelectionRange(g, g);"></td>
+          </tr>
+          <tr>
+              <td class="sub-code">20IS37L</td>
+              <td class="sub-name">Object Oriented Programming Laboratory</td>
+              <td><input type="text" id="subject-8" oninput="let h=this.selectionStart;this.value=this.value.toUpperCase();this.setSelectionRange(h, h);"></td>
+          </tr>
+          <tr>
+              <td class="sub-code">20HU311</td>
+              <td class="sub-name" >Universal Human Values</td>
+              <td><input type="text" id="subject-9" oninput="let i=this.selectionStart;this.value=this.value.toUpperCase();this.setSelectionRange(i, i);"></td>
+          </tr>
+      </table>
+
+      <button id="calculateGPA">Calculate GPA</button>
+      <button id="resetBtn">Reset</button>
+
+      <p id="result"></p>
+      <i class='bx bx-arrow-back' id="back" onclick="window.location='../index.html';"></i>
+  </div>
+    
+   <script src="ise-3.js"></script>
+</body>
+</html>
